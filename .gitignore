@@ -1,0 +1,16 @@
+# Material de produção restrito; anexado localmente, fora do Git.
+gpmh-design/assets/brand-kit/
+*.otf
+*.ttf
+*.woff
+*.woff2
+*.zip
+MANUAL-GPMH.html
+qa/*.json
+.env
+.env.*
+!.env.example
+.DS_Store
+Icon?
+__pycache__/
+*.pyc

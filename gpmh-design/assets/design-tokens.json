@@ -1,0 +1,473 @@
+{
+  "version": "1.3.0-rc1",
+  "date": "2026-09-23",
+  "status": "Consolidação para revisão; visual 1.2 elogiado por Luis; jornada 1.3 em revisão; DS integral não homologado",
+  "color": {
+    "cerise": "#FF004C",
+    "black": "#000000",
+    "white": "#FFFFFF",
+    "porcelain": "#EEF3F2",
+    "linen": "#E3DDD2"
+  },
+  "colorPartner": {
+    "gptw": "#FF1628"
+  },
+  "font": {
+    "family": "PP Neue Corp",
+    "fallback": [
+      "Arial",
+      "sans-serif"
+    ],
+    "normalWeight": 500,
+    "strongWeight": 750,
+    "synthesis": "none"
+  },
+  "spaceRem": [
+    0.25,
+    0.5,
+    0.75,
+    1,
+    1.5,
+    2,
+    3,
+    4,
+    6,
+    8
+  ],
+  "layout": {
+    "containerRem": 76,
+    "gutter": "clamp(1.25rem, 4vw, 4rem)",
+    "grid": {
+      "desktop": 12,
+      "tablet": 8,
+      "mobile": 4
+    },
+    "breakpointRem": {
+      "compact": 40,
+      "medium": 64
+    },
+    "touchMinRem": 3
+  },
+  "motion": {
+    "pressMs": 150,
+    "stateMs": 200,
+    "entryMs": 520,
+    "entryDistancePx": 18,
+    "entryStaggerMs": 70,
+    "ease": "cubic-bezier(.22,1,.36,1)",
+    "videoLoopSeconds": 9.5,
+    "videoFadeMs": 350,
+    "graphicRotationDeg": [
+      -18,
+      18
+    ],
+    "graphicShiftDesktopPx": [
+      -20,
+      20
+    ],
+    "graphicShiftMobilePx": [
+      -12,
+      12
+    ],
+    "skyParallaxMaxPx": 60,
+    "brainField": {
+      "status": "estudo anterior 1.1; hero rejeitada por Luis; usar brainSculpture",
+      "fpsCap": 30,
+      "dprCapDesktop": 1.75,
+      "dprCapCompact": 1.5,
+      "states": [
+        "brain",
+        "expand"
+      ],
+      "particleBudget": {
+        "under420": 420,
+        "under620": 540,
+        "default": 700,
+        "limitedDevice": 340,
+        "min": 300,
+        "max": 700
+      },
+      "source": "Dala reference adapted with GPMH geometry",
+      "modeTransitionMs": 1200,
+      "yawCycleSeconds": 24
+    },
+    "brainSculpture": {
+      "status": "visual 1.2 elogiado por Luis; extensão 1.3 em revisão",
+      "renderer": "WebGL local",
+      "states": [
+        "brain",
+        "bulb"
+      ],
+      "fpsCap": 30,
+      "particleBudgetDesktop": 18000,
+      "particleBudgetMobile": 9000,
+      "dprCapDesktop": 1.75,
+      "dprCapCompact": 1.5,
+      "geometry": "HRA Brain Male v1.3, adaptado sob CC BY4.0",
+      "documentation": "modules/BRAIN-SCULPTURE.md",
+      "particleBudgetLimited": 6500,
+      "compactProfile": "viewport até 48rem ou ponteiro principal de toque",
+      "synapseNodes": {
+        "desktop": 240,
+        "compact": 150,
+        "limited": 108
+      },
+      "journey": {
+        "version": "1.3.0-rc1",
+        "status": "integração em revisão; consultar relatório de QA da entrega",
+        "scenes": [
+          "potential",
+          "idea",
+          "capacity"
+        ],
+        "continuation": "connections",
+        "controller": "evolution.js",
+        "layout": "evolution.css",
+        "layer": "fixed abaixo do header; conteúdo em fluxo",
+        "finalSpread": 1,
+        "finalOpacity": 0.3,
+        "reflowFinalOpacity": 0.17,
+        "drift": 0.35,
+        "reflowRootFontThresholdPx": 22,
+        "compactLayoutMaxWidthPx": 896,
+        "landscapeException": {
+          "maxHeightPx": 560,
+          "minWidthPx": 640
+        },
+        "documentation": "docs/ESCULTURA-IMERSIVA.md"
+      }
+    }
+  },
+  "typography": {
+    "web": {
+      "unit": "px equivalentes; implementação rem/clamp",
+      "status": "especificação proposta para padronização",
+      "roles": [
+        {
+          "role": "Display",
+          "weight": "500",
+          "size": "48–112",
+          "lineHeight": "1.00",
+          "tracking": "−0.035em"
+        },
+        {
+          "role": "H1",
+          "weight": "500",
+          "size": "40–80",
+          "lineHeight": "1.04",
+          "tracking": "−0.03em"
+        },
+        {
+          "role": "H2",
+          "weight": "500",
+          "size": "36–64",
+          "lineHeight": "1.08",
+          "tracking": "−0.025em"
+        },
+        {
+          "role": "H3",
+          "weight": "500",
+          "size": "28–36",
+          "lineHeight": "1.12",
+          "tracking": "−0.015em"
+        },
+        {
+          "role": "H4",
+          "weight": "500",
+          "size": "24–28",
+          "lineHeight": "1.20",
+          "tracking": "−0.01em"
+        },
+        {
+          "role": "H5",
+          "weight": "500",
+          "size": "22–24",
+          "lineHeight": "1.25",
+          "tracking": "0"
+        },
+        {
+          "role": "H6",
+          "weight": "500",
+          "size": "20–22",
+          "lineHeight": "1.30",
+          "tracking": "0"
+        },
+        {
+          "role": "Corpo grande",
+          "weight": "500",
+          "size": "22–28",
+          "lineHeight": "1.35",
+          "tracking": "0"
+        },
+        {
+          "role": "Corpo",
+          "weight": "500",
+          "size": "18–20",
+          "lineHeight": "1.45",
+          "tracking": "0"
+        },
+        {
+          "role": "Apoio / legenda",
+          "weight": "500",
+          "size": "16–18",
+          "lineHeight": "1.40",
+          "tracking": "0"
+        },
+        {
+          "role": "Rótulo / ajuda",
+          "weight": "500",
+          "size": "16",
+          "lineHeight": "1.40",
+          "tracking": "0"
+        },
+        {
+          "role": "Botão / input",
+          "weight": "500",
+          "size": "18–20",
+          "lineHeight": "1.20 / 1.40",
+          "tracking": "0"
+        },
+        {
+          "role": "Dado em destaque",
+          "weight": "750",
+          "size": "48–88",
+          "lineHeight": "1.00",
+          "tracking": "−0.025em"
+        }
+      ]
+    },
+    "social": {
+      "unit": "px em canvas 1080",
+      "status": "especificação proposta para padronização",
+      "roles": [
+        {
+          "role": "H1 · sequência editorial",
+          "weight": "500",
+          "size": "112",
+          "lineHeight": "1.02",
+          "tracking": "−0.025em"
+        },
+        {
+          "role": "H2",
+          "weight": "500",
+          "size": "64",
+          "lineHeight": "1.08",
+          "tracking": "−0.02em"
+        },
+        {
+          "role": "Corpo",
+          "weight": "500",
+          "size": "48",
+          "lineHeight": "1.18",
+          "tracking": "0"
+        },
+        {
+          "role": "Fonte / apoio",
+          "weight": "500",
+          "size": "38",
+          "lineHeight": "1.22",
+          "tracking": "0"
+        },
+        {
+          "role": "CTA",
+          "weight": "500",
+          "size": "44",
+          "lineHeight": "1.12",
+          "tracking": "0"
+        },
+        {
+          "role": "Número / palavra",
+          "weight": "750",
+          "size": "120",
+          "lineHeight": "1.00",
+          "tracking": "−0.025em"
+        }
+      ]
+    },
+    "campaign": {
+      "unit": "px em canvas 1080",
+      "status": "extraído de peça aprovada",
+      "roles": [
+        {
+          "role": "H1 · benchmark V9",
+          "weight": "500",
+          "size": "66",
+          "lineHeight": "1.04",
+          "tracking": "−0.015em"
+        },
+        {
+          "role": "GPMH. · monumental",
+          "weight": "750",
+          "size": "138",
+          "lineHeight": "1.00",
+          "tracking": "−0.025em"
+        },
+        {
+          "role": "Dados",
+          "weight": "500",
+          "size": "44",
+          "lineHeight": "1.12",
+          "tracking": "−0.01em"
+        },
+        {
+          "role": "Crédito de publicação",
+          "weight": "500",
+          "size": "36",
+          "lineHeight": "1.10",
+          "tracking": "−0.01em"
+        },
+        {
+          "role": "CTA",
+          "weight": "500",
+          "size": "40",
+          "lineHeight": "1.10",
+          "tracking": "−0.01em"
+        }
+      ]
+    },
+    "slides": {
+      "unit": "pt",
+      "status": "especificação proposta para padronização",
+      "roles": [
+        {
+          "role": "Título de capa",
+          "weight": "500",
+          "size": "56",
+          "lineHeight": "1.05",
+          "tracking": "−0.025em"
+        },
+        {
+          "role": "Título interno",
+          "weight": "500",
+          "size": "40",
+          "lineHeight": "1.08",
+          "tracking": "−0.02em"
+        },
+        {
+          "role": "Subtítulo",
+          "weight": "500",
+          "size": "28",
+          "lineHeight": "1.20",
+          "tracking": "0"
+        },
+        {
+          "role": "Corpo",
+          "weight": "500",
+          "size": "24",
+          "lineHeight": "1.25",
+          "tracking": "0"
+        },
+        {
+          "role": "Fonte / apoio",
+          "weight": "500",
+          "size": "16",
+          "lineHeight": "1.25",
+          "tracking": "0"
+        },
+        {
+          "role": "Dado",
+          "weight": "750",
+          "size": "72",
+          "lineHeight": "1.00",
+          "tracking": "−0.025em"
+        }
+      ]
+    },
+    "print": {
+      "unit": "pt",
+      "status": "especificação proposta para padronização",
+      "roles": [
+        {
+          "role": "Título A4",
+          "weight": "500",
+          "size": "32",
+          "lineHeight": "1.05",
+          "tracking": "−0.025em"
+        },
+        {
+          "role": "Seção",
+          "weight": "500",
+          "size": "22",
+          "lineHeight": "1.10",
+          "tracking": "−0.015em"
+        },
+        {
+          "role": "Intertítulo",
+          "weight": "500",
+          "size": "16",
+          "lineHeight": "1.20",
+          "tracking": "0"
+        },
+        {
+          "role": "Corpo",
+          "weight": "500",
+          "size": "11.5",
+          "lineHeight": "1.35",
+          "tracking": "0"
+        },
+        {
+          "role": "Fonte / apoio",
+          "weight": "500",
+          "size": "9",
+          "lineHeight": "1.30",
+          "tracking": "0"
+        },
+        {
+          "role": "Dado",
+          "weight": "750",
+          "size": "40",
+          "lineHeight": "1.00",
+          "tracking": "−0.025em"
+        }
+      ]
+    },
+    "app": {
+      "unit": "pt iOS / sp Android",
+      "status": "especificação proposta para padronização",
+      "roles": [
+        {
+          "role": "Tela · título",
+          "weight": "500",
+          "size": "32",
+          "lineHeight": "1.12",
+          "tracking": "−0.02em"
+        },
+        {
+          "role": "Seção",
+          "weight": "500",
+          "size": "24",
+          "lineHeight": "1.20",
+          "tracking": "−0.01em"
+        },
+        {
+          "role": "Corpo",
+          "weight": "500",
+          "size": "18",
+          "lineHeight": "1.40",
+          "tracking": "0"
+        },
+        {
+          "role": "Ajuda / rótulo",
+          "weight": "500",
+          "size": "16",
+          "lineHeight": "1.40",
+          "tracking": "0"
+        },
+        {
+          "role": "Botão",
+          "weight": "500",
+          "size": "18",
+          "lineHeight": "1.20",
+          "tracking": "0"
+        },
+        {
+          "role": "Dado",
+          "weight": "750",
+          "size": "40",
+          "lineHeight": "1.00",
+          "tracking": "−0.02em"
+        }
+      ]
+    }
+  }
+}
