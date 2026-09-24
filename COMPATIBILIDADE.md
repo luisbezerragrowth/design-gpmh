@@ -1,6 +1,6 @@
 # Como usar em cada ferramenta
 
-Pacotes completos para baixar: [release privada no GitHub](https://github.com/luisbezerragrowth/design-gpmh/releases/tag/v1.1.0-rc1). Use GPMH-DESIGN-CLIENTE.zip para receber tudo ou GPMH-DESIGN-SKILL-COMPLETA.zip para importar somente a skill.
+Pacotes completos para baixar: [release pública no GitHub](https://github.com/luisbezerragrowth/design-gpmh/releases/tag/v1.1.0-rc1), sem login ou convite. Use GPMH-DESIGN-CLIENTE.zip para receber tudo ou GPMH-DESIGN-SKILL-COMPLETA.zip para importar somente a skill. As condições de uso dos ativos permanecem em [DISTRIBUICAO.md](DISTRIBUICAO.md).
 
 Conferência documental: 24/09/2026. Compatibilidade de formato não significa que uma sessão já leu o conteúdo. Peça uma confirmação curta da versão e dos ativos acessíveis antes da primeira peça. Não é necessário instalar um MCP para usar as regras.
 
@@ -36,7 +36,7 @@ Não colocar a identidade GPMH no conhecimento geral de um workspace com outros 
 
 Em **Skills → + Add → Upload a skill**, importe **GPMH-DESIGN-SKILL-COMPLETA.zip** ou a pasta `gpmh-design/` extraída. Depois selecione a skill com `/` ao iniciar a tarefa. Compartilhe os ativos somente com destinatários autorizados.
 
-A documentação prevê importação por ZIP/pasta e importação via GitHub para repositório público com SKILL.md na raiz. Para esta distribuição privada, use o ZIP; não tornar o repositório público apenas para importá-lo. Referência: [skills no Manus](https://help.manus.im/en/articles/14753565-how-to-share-and-use-skills-in-manus).
+A documentação prevê importação por ZIP/pasta e importação via GitHub para repositório público com SKILL.md na raiz. Neste repositório, o arquivo canônico está na subpasta `gpmh-design/SKILL.md`; por isso, use o ZIP de skill ou a pasta extraída para importar. Referência: [skills no Manus](https://help.manus.im/en/articles/14753565-how-to-share-and-use-skills-in-manus).
 
 ## Qualquer outra IA
 

@@ -4,6 +4,8 @@
   "date": "2026-09-24",
   "status": "em revisão",
   "remoteRepository": "https://github.com/luisbezerragrowth/design-gpmh",
+  "repositoryVisibility": "public",
+  "downloadsRequireGitHubLogin": false,
   "platforms": [
     "portable-markdown",
     "cursor",

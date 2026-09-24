@@ -12,7 +12,7 @@ Esse é o download para a equipe: manual HTML, fontes, logos, grafismos, referê
 
 Para importar somente a skill: **[GPMH-DESIGN-SKILL-COMPLETA.zip](https://github.com/luisbezerragrowth/design-gpmh/releases/download/v1.1.0-rc1/GPMH-DESIGN-SKILL-COMPLETA.zip)**.
 
-Os downloads ficam na [release 1.1.0-rc1](https://github.com/luisbezerragrowth/design-gpmh/releases/tag/v1.1.0-rc1) e exigem acesso ao repositório privado. O botão “Code → Download ZIP” do GitHub baixa o código-fonte sem o kit; para receber tudo, use o link **pacote completo** acima.
+Os downloads ficam na [release 1.1.0-rc1](https://github.com/luisbezerragrowth/design-gpmh/releases/tag/v1.1.0-rc1), com acesso público, sem login ou convite. O botão “Code → Download ZIP” do GitHub baixa o código-fonte sem o kit; para receber tudo, use o link **pacote completo** acima. Acesso público não concede licença de uso ou redistribuição dos ativos.
 
 ## Começar
 
@@ -48,7 +48,7 @@ AGENTS.md / CLAUDE.md     entradas de projeto
 gpmh-design/             única fonte de regras, tokens e recursos
   SKILL.md
   references/
-  assets/brand-kit/      kit autorizado, incluído só nas entregas privadas
+  assets/brand-kit/      kit incluído nos pacotes completos da release
 tools/                   anexação e geração dos pacotes
 qa/                      verificação reproduzível e resultados locais
 ```
@@ -63,13 +63,13 @@ A IA deve distinguir referência de aprovação e fato de suposição. O process
 
 - **GPMH-DESIGN-CLIENTE.zip:** manual, kit, núcleo completo e todos os adaptadores, na mesma raiz após extrair.
 - **GPMH-DESIGN-SKILL-COMPLETA.zip:** pasta portátil `gpmh-design/` com SKILL.md, referências e ativos; útil para importação de skill.
-- **GPMH-DESIGN-SKILL-GITHUB.zip:** fonte para repositório privado, sem kit comercial e sem fontes. Repositório: `design-gpmh`.
+- **GPMH-DESIGN-SKILL-GITHUB.zip:** código-fonte do repositório, sem kit comercial e sem fontes. Repositório: `design-gpmh`.
 
-Fonte compartilhada: [luisbezerragrowth/design-gpmh](https://github.com/luisbezerragrowth/design-gpmh), com acesso privado. Nenhum envio ao cliente foi realizado. Guia de passagem: [ENTREGA-CLIENTE.md](ENTREGA-CLIENTE.md). Condições dos ativos: [DISTRIBUICAO.md](DISTRIBUICAO.md).
+Fonte compartilhada: [luisbezerragrowth/design-gpmh](https://github.com/luisbezerragrowth/design-gpmh), com acesso público por solicitação de Luis em 24/09/2026. Nenhum envio ao cliente foi realizado. Guia de passagem: [ENTREGA-CLIENTE.md](ENTREGA-CLIENTE.md). Condições dos ativos: [DISTRIBUICAO.md](DISTRIBUICAO.md).
 
 ## Abrir o repositório
 
-Com acesso autorizado à conta/equipe do GitHub:
+O clone para leitura não exige conta no GitHub:
 
 ```sh
 git clone https://github.com/luisbezerragrowth/design-gpmh.git

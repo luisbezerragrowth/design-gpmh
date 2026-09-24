@@ -2,7 +2,7 @@
 
 ## Começar sem se perder
 
-Baixe **[GPMH-DESIGN-CLIENTE.zip](https://github.com/luisbezerragrowth/design-gpmh/releases/download/v1.1.0-rc1/GPMH-DESIGN-CLIENTE.zip)** na release privada do GitHub e extraia. A pasta contém:
+Baixe **[GPMH-DESIGN-CLIENTE.zip](https://github.com/luisbezerragrowth/design-gpmh/releases/download/v1.1.0-rc1/GPMH-DESIGN-CLIENTE.zip)** na release pública do GitHub e extraia. Não é necessário login ou convite para baixar. A pasta contém:
 
 1. **MANUAL-GPMH.html:** apresentação para cliente, direção e designers. Abrir no navegador. Feedback pode indicar capítulo, captura e resultado esperado.
 2. **GPMH-DESIGN-SYSTEM-KIT.zip:** ativos e modelos para produção por designers, com suas condições de uso.
@@ -21,10 +21,10 @@ Minuta preparada; nenhum envio foi feito.
 
 ## GitHub e manutenção
 
-Fonte compartilhada no repositório privado [design-gpmh](https://github.com/luisbezerragrowth/design-gpmh). O código-fonte e o ZIP GitHub excluem fontes comerciais e kit completo. A release privada oferece os pacotes completos para download por destinatários com acesso ao repositório; quem clonar a fonte pode anexar o kit à sua cópia. Uma mudança é feita na fonte `gpmh-design/` e o documento único é regenerado, evitando regras diferentes por ferramenta.
+Fonte compartilhada no repositório público [design-gpmh](https://github.com/luisbezerragrowth/design-gpmh). O código-fonte e o ZIP GitHub excluem fontes comerciais e kit completo. A release pública oferece os pacotes completos para download sem login ou convite; quem clonar a fonte pode anexar o kit à sua cópia. O acesso público não concede sublicença das fontes nem direitos sobre as marcas. Uma mudança é feita na fonte `gpmh-design/` e o documento único é regenerado, evitando regras diferentes por ferramenta.
 
 Não sobrescrever AGENTS.md, CLAUDE.md ou regras de um projeto existente sem preservar seu conteúdo. Integrar a entrada GPMH com o caminho real para o pacote. Não chamar o DS de oficial aprovado antes de decisão explícita.
 
 ## Hospedagem da apresentação
 
-O ZIP Netlify já entregue é uma publicação separada do benchmark. Não subir esta pasta de instruções como site. Licenças e público de acesso seguem [DISTRIBUICAO.md](DISTRIBUICAO.md); um repositório privado não torna um site automaticamente privado.
+O ZIP Netlify já entregue é uma publicação separada do benchmark. Não subir esta pasta de instruções como site. As condições dos ativos seguem [DISTRIBUICAO.md](DISTRIBUICAO.md); o acesso ao site deve ser configurado no serviço de hospedagem.
