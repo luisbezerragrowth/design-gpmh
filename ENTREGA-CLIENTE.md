@@ -2,7 +2,7 @@
 
 ## Começar sem se perder
 
-Extraia **GPMH-DESIGN-CLIENTE.zip**. A pasta contém:
+Baixe **[GPMH-DESIGN-CLIENTE.zip](https://github.com/luisbezerragrowth/design-gpmh/releases/download/v1.1.0-rc1/GPMH-DESIGN-CLIENTE.zip)** na release privada do GitHub e extraia. A pasta contém:
 
 1. **MANUAL-GPMH.html:** apresentação para cliente, direção e designers. Abrir no navegador. Feedback pode indicar capítulo, captura e resultado esperado.
 2. **GPMH-DESIGN-SYSTEM-KIT.zip:** ativos e modelos para produção por designers, com suas condições de uso.
@@ -11,7 +11,7 @@ Extraia **GPMH-DESIGN-CLIENTE.zip**. A pasta contém:
 5. **INSTRUCOES-PROJETO.md:** resumo para conhecimento persistente de um projeto GPMH.
 6. **COMPATIBILIDADE.md:** instalação e início no Cursor, Codex, Claude Code, Lovable, Manus e outros ambientes.
 
-As pastas ocultas `.cursor`, `.agents` e `.claude` são adaptadores de projeto. Não as mova isoladamente: elas apontam para `gpmh-design/`, que é a fonte compartilhada. Se for instalar apenas uma skill, use o ZIP de skill completo, entregue separadamente.
+As pastas ocultas `.cursor`, `.agents` e `.claude` são adaptadores de projeto. Não as mova isoladamente: elas apontam para `gpmh-design/`, que é a fonte compartilhada. Se for instalar apenas uma skill, use o [ZIP de skill completo](https://github.com/luisbezerragrowth/design-gpmh/releases/download/v1.1.0-rc1/GPMH-DESIGN-SKILL-COMPLETA.zip), disponível na mesma release.
 
 ## Texto para acompanhar o envio
 
@@ -21,7 +21,7 @@ Minuta preparada; nenhum envio foi feito.
 
 ## GitHub e manutenção
 
-Fonte compartilhada no repositório privado [design-gpmh](https://github.com/luisbezerragrowth/design-gpmh). O ZIP GitHub exclui fontes comerciais e kit completo; cada destinatário autorizado anexa o kit à sua cópia. Uma mudança é feita na fonte `gpmh-design/` e o documento único é regenerado, evitando regras diferentes por ferramenta.
+Fonte compartilhada no repositório privado [design-gpmh](https://github.com/luisbezerragrowth/design-gpmh). O código-fonte e o ZIP GitHub excluem fontes comerciais e kit completo. A release privada oferece os pacotes completos para download por destinatários com acesso ao repositório; quem clonar a fonte pode anexar o kit à sua cópia. Uma mudança é feita na fonte `gpmh-design/` e o documento único é regenerado, evitando regras diferentes por ferramenta.
 
 Não sobrescrever AGENTS.md, CLAUDE.md ou regras de um projeto existente sem preservar seu conteúdo. Integrar a entrada GPMH com o caminho real para o pacote. Não chamar o DS de oficial aprovado antes de decisão explícita.
 

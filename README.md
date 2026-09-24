@@ -4,6 +4,16 @@
 
 Uma base de design compartilhada para posts, carrosséis, apresentações, impressos, landing pages, sites e movimento. Reúne identidade, concepção de imagem, hierarquia, execução e revisão sem depender do histórico de uma conversa.
 
+## Baixar tudo
+
+**[Baixar o pacote completo — GPMH-DESIGN-CLIENTE.zip](https://github.com/luisbezerragrowth/design-gpmh/releases/download/v1.1.0-rc1/GPMH-DESIGN-CLIENTE.zip)**
+
+Esse é o download para a equipe: manual HTML, fontes, logos, grafismos, referências, modelos, módulos e instruções para as IAs. Extraia o ZIP e comece pelo README. As fontes e condições dos ativos estão documentadas no pacote.
+
+Para importar somente a skill: **[GPMH-DESIGN-SKILL-COMPLETA.zip](https://github.com/luisbezerragrowth/design-gpmh/releases/download/v1.1.0-rc1/GPMH-DESIGN-SKILL-COMPLETA.zip)**.
+
+Os downloads ficam na [release 1.1.0-rc1](https://github.com/luisbezerragrowth/design-gpmh/releases/tag/v1.1.0-rc1) e exigem acesso ao repositório privado. O botão “Code → Download ZIP” do GitHub baixa o código-fonte sem o kit; para receber tudo, use o link **pacote completo** acima.
+
 ## Começar
 
 | Quem vai usar | Entrada |
@@ -66,11 +76,11 @@ git clone https://github.com/luisbezerragrowth/design-gpmh.git
 cd design-gpmh
 ```
 
-Abra essa pasta no editor e siga [COMPATIBILIDADE.md](COMPATIBILIDADE.md). As regras, tokens e módulos estão versionados; o kit de produção é anexado separadamente.
+Abra essa pasta no editor e siga [COMPATIBILIDADE.md](COMPATIBILIDADE.md). As regras, tokens e módulos estão versionados. Quem clonar a fonte pode baixar o pacote completo na release e anexar o kit de produção à sua cópia, conforme abaixo.
 
 ## Anexar o kit ao clone
 
-Na raiz deste pacote, execute com Python 3:
+Dentro do pacote completo baixado na release está `GPMH-DESIGN-SYSTEM-KIT.zip`. Na raiz do clone, execute com Python 3:
 
 ```sh
 python3 tools/attach_brand_kit.py /caminho/para/GPMH-DESIGN-SYSTEM-KIT.zip

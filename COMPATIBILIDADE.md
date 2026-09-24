@@ -1,5 +1,7 @@
 # Como usar em cada ferramenta
 
+Pacotes completos para baixar: [release privada no GitHub](https://github.com/luisbezerragrowth/design-gpmh/releases/tag/v1.1.0-rc1). Use GPMH-DESIGN-CLIENTE.zip para receber tudo ou GPMH-DESIGN-SKILL-COMPLETA.zip para importar somente a skill.
+
 Conferência documental: 24/09/2026. Compatibilidade de formato não significa que uma sessão já leu o conteúdo. Peça uma confirmação curta da versão e dos ativos acessíveis antes da primeira peça. Não é necessário instalar um MCP para usar as regras.
 
 ## Cursor

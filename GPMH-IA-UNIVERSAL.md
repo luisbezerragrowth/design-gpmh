@@ -192,7 +192,7 @@ O manifesto mantém caminhos históricos para procedência; eles não são depen
 
 #### Condições de uso
 
-A skill base do GitHub não contém fontes comerciais nem o kit completo. O responsável anexa o kit por canal autorizado para a equipe. A existência dos arquivos não concede sublicença PP Neue Corp. Sem fonte licenciada acessível, não substituir silenciosamente por outra família nem declarar fidelidade final.
+O código-fonte do GitHub não contém fontes comerciais nem o kit completo. O pacote completo e a skill com ativos podem ser baixados na [release privada](https://github.com/luisbezerragrowth/design-gpmh/releases/tag/v1.1.0-rc1) pela equipe com acesso ao repositório. Quem clonar somente a fonte pode anexar o kit à sua cópia. A existência dos arquivos não concede sublicença PP Neue Corp. Sem fonte licenciada acessível, não substituir silenciosamente por outra família nem declarar fidelidade final.
 
 GPMH/GPTW mantém assinatura e proporção; há homologação pendente do vetor reconstruído GPTW para impressão/grande formato. O logo MIT identifica publicação, não chancela da universidade. Setembro Amarelo é sazonal. Cerise impresso depende de prova; não há Pantone/CMYK homologado presumido.
 

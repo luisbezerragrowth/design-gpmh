@@ -2,7 +2,7 @@
 
 A skill-base foi escrita para GPMH a partir dos critérios e entregas deste projeto. Não incorpora textos de skills de terceiros, credenciais de MCP ou históricos de cliente. Documentação técnica externa foi consultada para o formato de instalação, com links no README.
 
-A versão para Git contém somente instruções, referências curadas, tokens, motor/visual da escultura com licença e ferramentas de preparação. O kit completo e o HTML de apresentação são anexos locais separados; incluem fontes comerciais. A licença PP Neue Corp para cada usuário/destino e redistribuição permanece a conferir. A exclusão do Git inclui também arquivos que incorporam fonte em base64.
+A versão para Git contém somente instruções, referências curadas, tokens, motor/visual da escultura com licença e ferramentas de preparação. O kit completo e o HTML de apresentação integram o pacote de download da release privada, separado do histórico Git; incluem fontes comerciais. Luis autorizou em 24/09/2026 disponibilizar esse pacote no repositório privado design-gpmh para a equipe. A licença PP Neue Corp para cada usuário/destino e redistribuição permanece a conferir. A exclusão do Git inclui também arquivos que incorporam fonte em base64.
 
 A escultura do kit adapta HRA Brain, Male v1.3, Kristen Browne e Heidi Schlehlein (2023), CC BY 4.0. Preservar `modules/BRAIN-SCULPTURE-LICENSE.md`, link da licença e indicação de alterações em créditos acessíveis. O efeito não mostra atividade cerebral real nem chancela científica.
 

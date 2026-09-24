@@ -11,5 +11,7 @@
     "claude-code",
     "lovable",
     "manus"
-  ]
+  ],
+  "releasePage": "https://github.com/luisbezerragrowth/design-gpmh/releases/tag/v1.1.0-rc1",
+  "fullPackageDownload": "https://github.com/luisbezerragrowth/design-gpmh/releases/download/v1.1.0-rc1/GPMH-DESIGN-CLIENTE.zip"
 }
